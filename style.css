@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    background-color: #4A90E2;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+.profile {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+}
+
+.profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.profile h2 {
+    font-size: 24px;
+    margin: 0.5rem 0;
+}
+
+.profile p {
+    font-size: 16px;
+    color: #ddd;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.story, .personal-info {
+    width: 48%;
+}
+
+h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.story p, .personal-info p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+.footer {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    background-color: #fff;
+}
+
+.footer p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.social-icons a img {
+    width: 32px;
+    height: 32px;
+}
